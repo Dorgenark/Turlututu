@@ -15,6 +15,7 @@ body {
 #headtitle {
     margin-right: 1%;
     margin-left: 5%;
+    font-size: 110%;
 }
 
 #headlogin {
@@ -22,9 +23,17 @@ body {
     margin-right: 5%;
 }
 
+h1 {
+    font-size: 250%;
+}
+
+h2 {
+    font-size: 150%;
+}
+
 .part1 {
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     background-color: #4086D0;
     padding: 40px;
 }
@@ -32,16 +41,15 @@ body {
 .part1text {
     display: flex;
     flex-direction: column;
-    justify-content: flex-end;
     color: #F1F1EF;
     text-align: center;
-    margin-left: 25%;
+    margin-left: 19%;
     margin-right: 5%;
     margin-top: 20px;
 }
 
 .button1 {
-    margin-left: 20%;
+    margin-left: 22%;
     width: 50%;
     background-color: #E99002;
     padding: 13px;
@@ -49,4 +57,9 @@ body {
     border: 2px solid #F1F1EF;
     font-weight: bold;
     font-size: 110%;
+}
+
+.part2 {
+    text-align: center;
+    font-size: 150%;
 }
