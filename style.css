@@ -1,5 +1,6 @@
 body {
     font-family: 'Open Sans','Arial';
+    margin: 5px;
 }
 
 .head {
@@ -62,4 +63,16 @@ h2 {
 .part2 {
     text-align: center;
     font-size: 150%;
+}
+
+.part3 {
+    padding: 50px;
+    color: #F1F1EF;
+    background-color: #4086D0;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 50% 50%;
+}
+.part3text {
+    padding: 20px;
 }
